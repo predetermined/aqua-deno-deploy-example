@@ -1,4 +1,4 @@
-import Aqua from "https://github.com/l2ig/aqua/blob/main/deploy.ts";
+import Aqua from "https://raw.githubusercontent.com/l2ig/aqua/main/deploy.ts";
 
 const app = new Aqua();
 
