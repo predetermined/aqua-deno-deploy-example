@@ -1,4 +1,4 @@
-import Aqua from "https://deno.land/x/aqua/deploy.ts";
+import Aqua from "https://github.com/l2ig/aqua/blob/main/deploy.ts";
 
 const app = new Aqua();
 
