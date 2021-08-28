@@ -13,3 +13,7 @@ app.get("/hello", (req) => {
 app.get("/world", (req) => {
   return "World";
 });
+
+app.get("/test", (req) => {
+  return "test";
+});
