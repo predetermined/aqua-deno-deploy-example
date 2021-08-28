@@ -1,6 +1,15 @@
-addEventListener("fetch", (event) => {
-  const response = new Response("Hello World!", {
-    headers: { "content-type": "text/plain" },
-  });
-  event.respondWith(response);
+import Aqua from "https://raw.githubusercontent.com/l2ig/aqua/main/deploy.ts";
+
+const app = new Aqua();
+
+app.get("/", (req) => {
+  return "Hello, World!";
+});
+
+app.get("/hello", (req) => {
+  return "Hello";
+});
+
+app.get("/world", (req) => {
+  return "World";
 });
